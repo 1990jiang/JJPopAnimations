@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JJPopAnimation_Example' do
+  pod 'JJPopAnimation', :path => '../'
+
+  target 'JJPopAnimation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
