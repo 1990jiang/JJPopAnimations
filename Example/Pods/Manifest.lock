@@ -1,0 +1,16 @@
+PODS:
+  - JJPopAnimation (0.1.0)
+
+DEPENDENCIES:
+  - JJPopAnimation (from `../`)
+
+EXTERNAL SOURCES:
+  JJPopAnimation:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JJPopAnimation: 6144154937f68f7b2ba201d3557758399fad3e7a
+
+PODFILE CHECKSUM: 6acde03949f1cc6bfe488c4bad56ea60702c8b39
+
+COCOAPODS: 1.2.0

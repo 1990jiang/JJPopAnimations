@@ -1,0 +1,6 @@
+framework module Pods_JJPopAnimation_Example {
+  umbrella header "Pods-JJPopAnimation_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

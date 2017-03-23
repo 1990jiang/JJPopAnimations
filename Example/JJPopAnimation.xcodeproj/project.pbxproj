@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		916C3B701E836A3600E23D22 /* JJTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916C3B6F1E836A3600E23D22 /* JJTestViewController.m */; };
 		BA49C5A6CA9DEAC280D6A71C /* Pods_JJPopAnimation_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96879A8DC3375775D8BD8180 /* Pods_JJPopAnimation_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,9 +40,9 @@
 /* Begin PBXFileReference section */
 		07AEF61B1AE69ABFC608EA01 /* Pods-JJPopAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJPopAnimation_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJPopAnimation_Tests/Pods-JJPopAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0FC9F8509E63642FE2DD065C /* Pods_JJPopAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJPopAnimation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		144198318E3B2F62CF2A07FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		144198318E3B2F62CF2A07FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		20F5CDF32BF7FB6122341823 /* Pods-JJPopAnimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJPopAnimation_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJPopAnimation_Example/Pods-JJPopAnimation_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4794C52E3A63598988F04514 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4794C52E3A63598988F04514 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JJPopAnimation_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJPopAnimation_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,11 +62,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		67B0166151A1268676CEC4A2 /* JJPopAnimation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JJPopAnimation.podspec; path = ../JJPopAnimation.podspec; sourceTree = "<group>"; };
+		67B0166151A1268676CEC4A2 /* JJPopAnimation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JJPopAnimation.podspec; path = ../JJPopAnimation.podspec; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A2A0DD5365013FD7C467042 /* Pods-JJPopAnimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJPopAnimation_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJPopAnimation_Example/Pods-JJPopAnimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89334F85EED47D812C977EBA /* Pods-JJPopAnimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJPopAnimation_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJPopAnimation_Tests/Pods-JJPopAnimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		916C3B6E1E836A3600E23D22 /* JJTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTestViewController.h; sourceTree = "<group>"; };
+		916C3B6F1E836A3600E23D22 /* JJTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTestViewController.m; sourceTree = "<group>"; };
 		96879A8DC3375775D8BD8180 /* Pods_JJPopAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJPopAnimation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* JJViewController.h */,
 				6003F5A6195388D20070C39A /* JJViewController.m */,
+				916C3B6E1E836A3600E23D22 /* JJTestViewController.h */,
+				916C3B6F1E836A3600E23D22 /* JJTestViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -394,6 +399,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				916C3B701E836A3600E23D22 /* JJTestViewController.m in Sources */,
 				6003F59E195388D20070C39A /* JJAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* JJViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
