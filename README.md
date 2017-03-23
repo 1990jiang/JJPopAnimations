@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/JJPopAnimation.svg?style=flat)](http://cocoapods.org/pods/JJPopAnimation)
 
 ## Example
-
+######使用 pod 'JJPopAnimation'可以直接使用这个框架。 当然你也可以下载框架，然后将JJPopAnimation文件夹拖入工程中
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
