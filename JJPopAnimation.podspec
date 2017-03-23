@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JJPopAnimation'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of JJPopAnimation.'
+  s.version          = '0.0.1'
+  s.summary          = 'JJPopAnimation弹出视图'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+               '这是我弹出视图的第一个版本，后期会继续进行优化的'
+                        DESC
 
-  s.homepage         = 'https://github.com/1990jiang/JJPopAnimation'
+  s.homepage         = 'https://github.com/1990jiang/JJPopAnimations'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '1990jiang' => '562752212@qq.com' }
-  s.source           = { :git => 'https://github.com/1990jiang/JJPopAnimation.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/1990jiang/JJPopAnimations.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
